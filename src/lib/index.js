@@ -1,2 +1,4 @@
 // Reexport your entry components here
-export { default as Modal } from './Modal.svelte';
+import Modal from './Modal.svelte';
+
+export { Modal };
